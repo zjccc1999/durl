@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="asset/img/favicon.png"  >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>short</title>
+    <title>iink 短链生成器</title>
     <style>
       :root {
         --color-primary: #5c7cfa;
@@ -203,7 +203,7 @@
     </style>
   </head>
   <body>
-    <header><h1>short</h1></header>
+    <header><h1>iink 短链生成器</h1></header>
     <main x-data="app" x-cloak>
       <p x-show.transition.opacity="alert" :class="alert?.type" x-text="alert?.message"></p>
       <input placeholder="输入要缩短的网址..." x-model="url" x-ref="url" />
@@ -211,13 +211,13 @@
         <summary>自定义设置</summary>
         <div>
           <input placeholder="slug" x-model="slug" />
-          <small>Slug 默认是随机生成的短 id。</small>
+          <small>不设置则随机生成 slug</small>
         </div>
       </details>
       <button :class="{ loading }" :disabled="loading || isValidated()" @click="submit($refs, $nextTick)">生成</button>
     </main>
     <footer>
-     service
+      基于 <a href="https://github.com/shaoyouvip/iink" target="_blank">Cloudflare</a> 的短链生成器
     </footer>
     <script src="asset/js/alpine.js"></script>
     <script>
