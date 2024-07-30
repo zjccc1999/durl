@@ -2,7 +2,9 @@
 
 一个使用 Cloudflare Pages 创建的 URL 短链生成器
 
-*Demo* : [https://d.001315.xyz](https://d.001315.xyz)
+*Demo* : 
+[https://d.001315.xyz](https://d.001315.xyz)
+[https://durl.us.kg/](https://durl.us.kg/)
 
 
 
