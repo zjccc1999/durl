@@ -1,8 +1,8 @@
 ## 介绍
 
-一个使用 Cloudflare Pages 创建的 URL 缩短器
+一个使用 Cloudflare Pages 创建的 URL 短链生成器
 
-*Demo* : [https://d.131213.xyz/](https://d.131213.xyz/)
+*Demo* : [https://d.001315.xyz](https://d.001315.xyz)
 
 
 
@@ -14,7 +14,7 @@
 3. 在帐户主页中，选择`pages`> ` Create a project` > `Connect to Git`
 4. 选择你创建的项目存储库，在`Set up builds and deployments`部分中，全部默认即可。
 5. 点击`Save and Deploy`，稍等片刻，你的网站就部署好了。
-6. 创建D1数据库参考[这里](https://github.com/x-dr/telegraph-Image/blob/main/docs/manage.md)
+6. 创建D1数据库参考[这里](https://github.com/shaoyouvip/telegraph-Image/blob/main/docs/manage.md)
 7. 执行sql命令创建表（在控制台输入框粘贴下面语句执行即可）
 
 ```sql
@@ -51,10 +51,10 @@ CREATE TABLE IF NOT EXISTS logs (
 
 ```bash
 # POST /create
-curl -X POST -H "Content-Type: application/json" -d '{"url":"https://131213.xyz"}' https://d.131213.xyz/create
+curl -X POST -H "Content-Type: application/json" -d '{"url":"https://001315.xyz"}' https://d.001315.xyz/create
 
 # 指定slug
-curl -X POST -H "Content-Type: application/json" -d '{"url":"https://131213.xyz","slug":"scxs"}' https://d.131213.xyz/create
+curl -X POST -H "Content-Type: application/json" -d '{"url":"https://001315.xyz","slug":"scxs"}' https://d.001315.xyz/create
 
 ```
 
@@ -65,7 +65,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"url":"https://131213.xyz"
 ```json
 {
   "slug": "<slug>",
-  "link": "http://d.131213.xyz/<slug>"
+  "link": "http://d.001315.xyz/<slug>"
 }
 ```
 
