@@ -72,4 +72,4 @@ curl -X POST -H "Content-Type: application/json" -d '{"url":"https://001315.xyz"
 ```
 
 ### 鸣谢：
-[https://github.com/x-dr/short](https://github.com/x-dr/short)
+[x-dr](https://github.com/x-dr/short)
