@@ -4,7 +4,6 @@
 
 *Demo* : 
 [https://d.001315.xyz](https://d.001315.xyz)
-[https://durl.us.kg/](https://durl.us.kg/)
 
 
 
